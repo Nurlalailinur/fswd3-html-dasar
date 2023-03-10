@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid CSS</title>
+    <link rel="stylesheet" href="Tugas6.css">
+	<style>
+.grid-container {
+  display: grid;
+  gap: 5px;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+
+  
+  
+}
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+
+
+}
+.item1 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  
+}
+.item2 {
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+.item4 {
+  grid start: 2;
+  grid end: 3;
+}
+.item3 {
+  grid-row-start: 2;
+  grid-row-end: 6;
+}
+.item5 {
+  grid-row-start: 3;
+  grid-row-end: 7;
+}
+.item6 {
+  grid-row-start: 3;
+  grid-row-end: 7;
+}
+.item7 {
+  grid start: 3;
+  grid end: 7;
+}
+.item8 {
+  grid-column-start: 3;
+  grid-column-end: 1;
+}
+.item9 {
+  grid start: 4;
+  grid end: 8;
+}
+.item10 {
+  grid-column-start: 4;
+  grid-column-end: 1;
+}
+
+
+</style>
+  </head>
+  <body>
+    <div class="grid-container">
+  <div class="item1"><img src="icon2.png"/></div>
+  <div class="item2"><img src="icon3.png" /></div>
+  <div class="item3"><img src="icon11.png" /></div>  
+  <div class="item4"><img src="icon4.png" /></div>
+  <div class="item5"><img src="icon13.png" /></div>
+  <div class="item6"><img src="icon6.png" /></div>
+  <div class="item7"><img src="icon7.png" /></div>
+  <div class="item8"><img src="icon8.png" /></div> 
+  <div class="item9"><img src="icon9.png" /></div> 
+  <div class="item10"><img src="icon10.png" /></div> 
+  
+
+</div>
+ 
+
+ 
+</div>
+  </body>
+</html>
